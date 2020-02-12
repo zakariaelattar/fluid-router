@@ -5,8 +5,8 @@ A basic fast router for php projects
 To install with composer:
 
 ````
-composer require nikic/fast-route
-```
+composer require `zakariaelattar/fluid-router
+````
 Requires PHP 7.1 or newer.
 
 
@@ -14,7 +14,7 @@ Requires PHP 7.1 or newer.
 
 Here's a basic usage example:
 
-```
+```php
 <?php
 $router=new Router($_GET['url']);
 
@@ -43,5 +43,5 @@ $router->post('/articles',"Article@setArticles");
 
 
 $router->run();
-```
+`````
 
